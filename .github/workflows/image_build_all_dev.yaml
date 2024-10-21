@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-22.04
     strategy:
       matrix:
-        DEVICE: [rpi4,vim1,vim3,rockpro64,on2,on2-plus,radxa-zero2]
+        DEVICE: [rpi4]
         EDITION: [kde-bigscreen]
         BRANCH: [unstable]
     steps:
