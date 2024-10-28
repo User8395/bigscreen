@@ -24,7 +24,7 @@ jobs:
           format: 'YYYYMMDD'
       -
         id: image-build
-        uses: manjaro-arm/rootfs@master
+        uses: User8395/rootfs@master
         with:
           overlay-repo: kde-unstable
           device: ${{ matrix.device }}
