@@ -1,8 +1,4 @@
 name: image_build_all_dev
-on:
-  workflow_dispatch:
-  schedule:
-    - cron:  '30 2 * * 1'
 
 concurrency:
   group: ${{ github.repository }}-${{ github.workflow }}-${{ github.ref }}
